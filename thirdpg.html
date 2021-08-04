@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inshop.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="header">  
+        
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img-1.jpg" width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+                </div>
+        </div>
+        </div>
+        
+    <!-- featured categories -->
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">Categories</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="exclusive.png">
+                </div>
+                <div class="col-3">
+                    <img src="product-8.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="product-10.jpg">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- featured product -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="product-1.jpg">
+                <h4>Red printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="exclusive.png" height="300px">
+                <h4>Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4">
+                <img src="watch1.jpeg" height="300px">
+                <h4>Black Analog Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+    </div>
+    <!-- latest product -->
+    <div class="small-container">
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="product-10.jpg">
+                <h4>Sparx black Shoes</h4>
+                <p>$40.00</p>
+                <p>30% off</p>
+            </div>
+            <div class="col-4">
+                <img src="product-8.jpg" height="300px">
+                <h4>Fossil black Watch</h4>
+                <p>$35.00</p>
+                <p>10%off</p>
+            </div>
+            <div class="col-4">
+                <img src="product-5.jpg" height="300px">
+                <h4>kinky Shoes</h4>
+                <p>$20.00 </p>
+                <p>20% off</p>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="product-12.jpg" style="width:100%;height: 100%;">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="product-10.jpg" style="width:100%;height: 100%;">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="product-1.jpg" style="width:100%;height: 100%;">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <script src="slideing.js"></script>  
+</body>
+</html>
